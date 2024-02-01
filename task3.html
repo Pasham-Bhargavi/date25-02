@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naa Songs </title>
+    <style>
+        .content{
+            width:800px;
+            height: 800px;
+            margin-top: 80px;
+            margin-left: 450px;
+            border: 3px solid black;
+            text-align: center;
+        }
+        .fig{
+            width: 500px;
+            height: 300px;
+            line-height: 200px;
+            padding: 20px;
+            transform: rotate(180deg);
+            position:absolute;
+            top: 400px;
+            left: 450px;
+        }
+        #one{
+            width: 20px;
+            height: 60px;
+            background-color: green;
+            float: left;
+            animation-name: muc1;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes muc1  {
+            0%{
+                height: 20px;
+
+            }
+            100%{
+                height: 60px;
+            }
+            
+        }
+        #two{
+            width: 20px;
+            height: 100px;
+            background-color:blue;
+            float: left;
+            animation-name: muc2;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
+        }
+        @keyframes muc2  {
+            0%{
+                height: 20px;
+
+            }
+            100%{
+                height: 100px;
+            }
+            
+        }
+        #thr{
+            width: 20px;
+            height: 150px;
+            background-color: green;
+            float: left;
+            animation-name: muc3;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes muc3  {
+            0%{
+                height: 20px;
+
+            }
+            100%{
+                height: 150px;
+            }
+            
+        }
+        #fou{
+            width: 20px;
+            height: 200px;
+            background-color: blue;
+            float: left;
+            animation-name: muc4;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
+            
+        }
+        @keyframes muc4 {
+            0%{
+                height: 20px;
+
+            }
+            100%{
+                height: 200px;
+            }
+        }
+        #fiv{
+            width: 20px;
+            height: 150px;
+            background-color: green;
+            float: left;
+            animation-name: muc3;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+
+        }
+
+        #six{
+            width: 20px;
+            height: 100px;
+            background-color: blue;
+            float: left;
+            animation-name: muc2;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
+        }
+        #sev{
+            width: 20px;
+            height: 60px;
+            background-color: green;
+            float: left;
+            animation-name: muc1;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            
+        }
+       
+
+
+
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="content">
+        <h1><u>Bachelor</u></h1>
+        <img src="https://i.pinimg.com/originals/0c/56/2a/0c562a5495ccde707f449ae6d7544a74.jpg" width="200"
+            height="200">
+
+
+        <p><b>Song Name:</b>Adiye</p>
+        <p><b>Album:</b>Bachelor 2020</p>
+
+        <audio controls muted autoplay>
+            <source src="./Adiye Bachelor 128 Kbps.mp3"></audio>
+    </div>
+
+    <div class="fig">
+        <div id="one"></div>
+        <div id="two"></div>
+        <div id="thr"></div>
+        <div id="fou"></div>
+        <div id="fiv"></div>
+        <div id="six"></div>
+        <div id="sev"></div>
+    </div>  
+ 
+
+
+</body>
+
+</html>
